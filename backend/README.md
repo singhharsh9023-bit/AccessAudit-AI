@@ -9,6 +9,8 @@ Real accessibility scanning service for the AccessAudit AI frontend.
 There is no demo/mock data anywhere in this backend: every finding comes from a
 real axe-core run against the real page.
 
+> Backend by **Abhishek Kumar**. Frontend (UI/UX and React app) by **Harsh Singh**. See the root [README](../README.md).
+
 ## Quick start
 
 ```bash

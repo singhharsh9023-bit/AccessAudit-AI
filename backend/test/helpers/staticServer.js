@@ -1,11 +1,3 @@
-'use strict'
-
-/*
- * Minimal local HTTP server for the test fixture page. Binds to 127.0.0.1 on
- * an ephemeral port. The /hang route accepts the connection but never
- * responds, used to verify navigation-timeout handling.
- */
-
 const http = require('node:http')
 const fs = require('node:fs')
 const path = require('node:path')

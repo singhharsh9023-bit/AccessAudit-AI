@@ -1,6 +1,7 @@
 {
   "name": "accessaudit-backend",
   "private": true,
+  "author": "Abhishek Kumar (https://github.com/ABHISHEKABHI52)",
   "version": "1.0.0",
   "description": "Real accessibility scanning backend for AccessAudit AI (Express + Playwright + axe-core)",
   "type": "commonjs",

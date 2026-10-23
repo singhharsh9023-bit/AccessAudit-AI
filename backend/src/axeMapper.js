@@ -2,7 +2,7 @@
 
 /*
  * Maps raw axe-core results to the data contract the existing frontend
- * consumes (see src/hooks/useScanData.js in the frontend):
+ * consumes (see frontend/src/hooks/useScanData.js):
  *
  * Issue: { id, ruleId, severity, wcagCriterion, description, affectedUsers,
  *          element, selector, fix: { explanation, before, after } }

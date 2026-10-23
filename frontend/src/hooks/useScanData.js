@@ -1,34 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import { api } from '../api'
 
-/* ============================================================
-   DATA SHAPES (backend ko bas yahi shape dena hai)
-
-   Dashboard:
-   {
-     stats: { totalScans, openIssues, criticalSerious, lastScan } | null,
-     scansOverTime: [{ label: 'Jan', value: 12 }, ...],
-     severity: [{ level: 'critical'|'serious'|'moderate'|'minor', count }],
-     recentScans: Scan[]
-   }
-
-   Scan (list item):
-   { id, url, date (ISO string), status: 'completed'|'scanning'|'failed', issues: number }
-
-   ScanDetail (Results, Fix Assistant, Report preview):
-   {
-     id, url, date, status,
-     issues: [{
-       id, ruleId, severity, wcagCriterion, description,
-       affectedUsers, element, selector,
-       fix: { explanation, before, after }
-     }]
-   }
-
-   Report (list item): { id (same as scan id), title, url, date }
-
-   API functions: src/api/client.js (real backend)
-   ============================================================ */
 
 // Scan "scanning" ho to har 1.5 sec mein dobara check karo
 const isScanning = (data) => data?.status === 'scanning'

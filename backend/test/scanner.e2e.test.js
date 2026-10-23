@@ -1,16 +1,3 @@
-'use strict'
-
-/*
- * End-to-end acceptance test: REAL Playwright Chromium + axe-core.
- *
- * A controlled local fixture page (test/fixtures/inaccessible.html) with a
- * known missing-alt image is scanned through the actual scanning mechanism.
- * The test verifies axe-core reports the genuine `image-alt` violation and
- * that the API serves it in the frontend data contract.
- *
- * Also covers: failed navigation, navigation timeout, and blocked targets —
- * always producing explicit failures, never fabricated findings.
- */
 
 const test = require('node:test')
 const assert = require('node:assert/strict')

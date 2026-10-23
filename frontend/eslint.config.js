@@ -18,11 +18,4 @@ export default defineConfig([
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
   },
-  {
-    // The Express backend in backend/ runs in Node (CommonJS).
-    files: ['backend/**/*.js'],
-    languageOptions: {
-      globals: globals.node,
-    },
-  },
 ])

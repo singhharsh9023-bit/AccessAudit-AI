@@ -1,12 +1,3 @@
-'use strict'
-
-/*
- * API contract tests. Uses a controllable fake scanner so endpoint behaviour
- * (validation, statuses, mapping, dashboard maths, error honesty) can be
- * verified deterministically without launching a browser. The real browser
- * scan is covered by scanner.e2e.test.js.
- */
-
 const test = require('node:test')
 const assert = require('node:assert/strict')
 const fs = require('node:fs/promises')

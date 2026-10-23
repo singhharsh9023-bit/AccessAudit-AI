@@ -1,8 +1,3 @@
-// Tests for the real API client. Run with: npm test (node --test src/api/)
-// Network access is mocked via globalThis.fetch — these tests verify request
-// construction, response parsing and that failures throw honest errors
-// instead of silently returning fake data.
-
 import test from 'node:test'
 import assert from 'node:assert/strict'
 

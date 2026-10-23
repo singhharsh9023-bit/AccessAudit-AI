@@ -1,7 +1,4 @@
-// Real API client for the AccessAudit backend (see backend/).
-// Base URL comes from VITE_API_BASE_URL (see .env.example); default matches
-// the backend's default port. No mock data, no silent fallbacks: failures
-// throw with an honest message that the UI surfaces to the user.
+
 
 const BASE_URL = (import.meta.env?.VITE_API_BASE_URL || 'http://localhost:8000').replace(/\/+$/, '')
 const DEFAULT_TIMEOUT_MS = 20000
