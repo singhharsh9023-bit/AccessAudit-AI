@@ -7,14 +7,14 @@ The scan is **real, not simulated**: a backend service drives headless Chromium
 (Playwright) to load the page and runs **axe-core** inside it. Every issue shown
 in the UI comes from that live audit.
 
-## Team
+**Live demo:** [accessaudit-ai-frontend.onrender.com](https://accessaudit-ai-frontend.onrender.com/)
 
 | Name | Role | GitHub |
 | ---- | ---- | ------ |
 | **Harsh Singh** | UI/UX Designer and Frontend Developer (`frontend/`) | [@singhharsh9023-bit](https://github.com/singhharsh9023-bit) |
 | **Abhishek Kumar** | Backend Developer, scanning service (`backend/`) | [@ABHISHEKABHI52](https://github.com/ABHISHEKABHI52) |
 
-Built as a hackathon project. Licensed under the [MIT License](LICENSE).
+Built as a project. Licensed under the [MIT License](LICENSE).
 
 ## Project structure
 
